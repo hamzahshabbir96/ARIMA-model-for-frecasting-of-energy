@@ -45,6 +45,32 @@ Time Series model that has been used in this project has been optimzed based on 
  - [Bokeh dashboard](https://docs.bokeh.org/en/latest/index.html)
  - [Heroku Deployment](https://www.heroku.com/)
 
+## Running the app locally
+
+
+First create a virtual environment with conda or venv inside a temp folder, then activate it.
+
+
+
+```bash
+virtualenv 
+Machine-learning-forecasting-using-SVM-venv
+
+# Windows
+ARIMA-model-for-frecasting-of-energy-venv\Scripts\activate
+# Or Linux
+ARIMA-model-for-frecasting-of-energy-venv/bin/activate
+
+```
+Clone the git repo, then install the requirements with pip
+```bash
+git clone https://github.com/hamzahshabbir96/ARIMA-model-for-frecasting-of-energy.git
+pip install -r requirements.txt
+```
+Run the app and follow local host 
+```bash
+python index.py
+```
   
 ## Screenshots
 
